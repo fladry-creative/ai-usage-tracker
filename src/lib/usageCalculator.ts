@@ -1,4 +1,4 @@
-import { ServiceData, Recommendation, DashboardSummary } from './types';
+import type { ServiceData, Recommendation, DashboardSummary } from './types';
 
 export function calculateUsagePercentage(current: number, max: number): number {
   return Math.round((current / max) * 100);

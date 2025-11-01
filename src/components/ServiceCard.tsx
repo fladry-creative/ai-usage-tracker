@@ -1,4 +1,4 @@
-import { ServiceData } from '../lib/types';
+import type { ServiceData } from '../lib/types';
 import { calculateUsagePercentage, getProgressBarColor } from '../lib/usageCalculator';
 
 interface ServiceCardProps {

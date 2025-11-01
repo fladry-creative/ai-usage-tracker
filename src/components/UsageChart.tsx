@@ -1,5 +1,5 @@
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { UsageDataPoint } from '../lib/types';
+import type { UsageDataPoint } from '../lib/types';
 
 interface UsageChartProps {
   data: UsageDataPoint[];

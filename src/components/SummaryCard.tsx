@@ -1,4 +1,4 @@
-import { DashboardSummary } from '../lib/types';
+import type { DashboardSummary } from '../lib/types';
 
 interface SummaryCardProps {
   summary: DashboardSummary;

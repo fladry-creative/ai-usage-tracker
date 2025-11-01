@@ -1,4 +1,4 @@
-import { ServiceData, UsageDataPoint } from './types';
+import type { ServiceData, UsageDataPoint } from './types';
 
 export const servicesData: ServiceData[] = [
   {
